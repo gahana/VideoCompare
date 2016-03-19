@@ -1,5 +1,5 @@
 # VideoCompare
-Compare videos to find common content. Code from a hack event in CenturyLink India 2012.
+Compare videos to find common content. Code from a hack event in 2012.
 
 ## Accuracy control
 In the compare.config file you can set the property "frame.interval" to lower values to achieve more accuracy. 
