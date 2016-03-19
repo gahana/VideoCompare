@@ -9,7 +9,7 @@ object DataBase {
   Class.forName("oracle.jdbc.driver.OracleDriver").newInstance()
   
   def getConnection: Connection = {
-    val conn = DriverManager.getConnection("jdbc:oracle:thin:@10.140.0.106:1521:CPL2011", "team27", "teamkci27")
+    val conn = DriverManager.getConnection("jdbc:oracle:thin:@0.0.0.0:1521:schema", "uname", "pas")
     conn.setAutoCommit(true)
     conn
   }
