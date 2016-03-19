@@ -1,8 +1,6 @@
-package cpl.gangnam
-
 import java.io.File
-import cpl.gangnam.DataBase.update
-import cpl.gangnam.Metrics.results
+import DataBase.update
+import Metrics.results
 import scala.compat.Platform
 
 object Run {

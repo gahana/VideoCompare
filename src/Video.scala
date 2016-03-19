@@ -1,5 +1,3 @@
-package cpl.gangnam
-
 import java.awt.image.BufferedImage
 import java.io.File
 
@@ -7,7 +5,7 @@ import com.xuggle.mediatool.MediaListenerAdapter
 import com.xuggle.mediatool.ToolFactory
 import com.xuggle.mediatool.event.IVideoPictureEvent
 import com.xuggle.xuggler.Global
-import cpl.gangnam.FileUtil.frameInterval
+import FileUtil.frameInterval
 
 import javax.imageio.ImageIO
 

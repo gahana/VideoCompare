@@ -1,5 +1,3 @@
-package cpl.gangnam
-
 object Metrics {
 
   def main(args: Array[String]): Unit = {

@@ -1,6 +1,3 @@
-package cpl.gangnam;
-
-
 import ij.IJ;
 import ij.ImagePlus;
 import ij.process.FloatProcessor;

@@ -1,11 +1,9 @@
-package cpl.gangnam
-
 import java.awt.image.BufferedImage
 import java.awt.image.Raster
 import java.io.File
 
-import cpl.gangnam.FileUtil._
-import cpl.gangnam.Metrics.abs
+import FileUtil._
+import Metrics.abs
 import javax.imageio.ImageIO
 
 object MeanPSNR {

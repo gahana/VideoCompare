@@ -1,5 +1,3 @@
-package cpl.gangnam
-
 import java.io.File
 import java.io.FileInputStream
 import java.util.PropertyResourceBundle

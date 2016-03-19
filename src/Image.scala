@@ -1,15 +1,13 @@
-package cpl.gangnam
-
 import java.awt.image.BufferedImage
 import java.awt.image.Raster
 import java.io.File
 
-import cpl.gangnam.FileUtil.meanPSNR
-import cpl.gangnam.FileUtil.multiPSNR
-import cpl.gangnam.FileUtil.psnr
-import cpl.gangnam.FileUtil.psnrThreashold
-import cpl.gangnam.FileUtil.ssimThreashold
-import cpl.gangnam.Metrics.abs
+import FileUtil.meanPSNR
+import FileUtil.multiPSNR
+import FileUtil.psnr
+import FileUtil.psnrThreashold
+import FileUtil.ssimThreashold
+import Metrics.abs
 import ij.ImagePlus
 import javax.imageio.ImageIO
 

@@ -1,11 +1,9 @@
-package cpl.gangnam
-
 import java.io.BufferedOutputStream
 import java.io.FileOutputStream
 import java.sql.Connection
 import java.sql.DriverManager
 
-import cpl.gangnam.FileUtil._
+import FileUtil._
 
 object DataBase {
   Class.forName("oracle.jdbc.driver.OracleDriver").newInstance()
