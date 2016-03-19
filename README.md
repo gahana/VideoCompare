@@ -11,6 +11,7 @@ This code was written to run using a DB to download videos needed for comparisio
 
 ## Better Solution
 The better solution at the hack event was to
+
 1. Sample Videos as accurately as possible using ffmpeg
 2. Create image hashes. Ex: http://www.phash.org/
 3. Compare videos using image hashes.
